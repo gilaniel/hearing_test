@@ -5,7 +5,7 @@ export class RootStore {
     makeAutoObservable(this);
   }
 
-  step = 5;
+  step = 1;
   stats = {
     sex: undefined,
     age: undefined,
